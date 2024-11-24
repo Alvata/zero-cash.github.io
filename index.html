@@ -1,0 +1,232 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>felxbox_01</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">EL PANORAMA</a>
+          <a href="#secc2">EL IDEAL</a>
+          <a href="#secc3">EL LADO NEGATIVO</a>
+          <a href="#secc4">EL FUTURO</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>EL PANORAMA</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <h2>¿Qué pasa en el mundo?</h2> 
+		    <p>
+ <br>En los países en vías de desarrollo, el porcentaje de efectivo en circulación es entre el 60% y el 90%. Mientras que en países como Suecia la moneda fiduciaria en circulación representa cerca del 2% de las transacciones vs la Unión Europea donde la cifra oscila entre el 10% y el 20%.
+
+</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>En varios países de Asia y África —India, Pakistán, Kenya y Tanzanía— es habitual pagar con el celular en lugar de hacerlo con tarjetas o efectivo. En China, el país tecnicamente más avanzado en cuanto a Zero Cash se refiere, el sistema financiero centralizado que restringe las libertades individuales. </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="imgs-secc-1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		<img src="imagenes/img1b.png" title="Img 1b">
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--texto para imagen a la izquierda-->
+	        		<p>Dinero de pobres</p>
+	        		<!--texto para imagen a la derecha-->
+	        		<p>Dinero de ricos</p>
+        		</div>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		<!--texto para la imagen-->
+	        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	        		<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1b.png" title="Img 1b">
+	        		<!--texto para la imagen-->
+	        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    			</div>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>EL IDEAL</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <h2>¿Falsa concepción?</h2>
+		        <p>
+<br>La idea que tenemos la mayoría de nosotros cuando pensamos en pagar con tarjeta o transferencia en todas partes sin necesidad de efectivo es casi “maravillosa”. 
+Nos encanta poder hacer compras desde el celular, pasar la tarjeta nos hace sentir poderosos, y cargar monedas ya es cosa del pasado; además de que pesan y puede ser antihigiénico (más tras la pandemia). Y por no hablar de que es más seguro andar sin efectivo encima, sobre todo en un país como México donde los asaltos sí que existen. 
+
+</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		         <h2>¿Por qué?</h2> 
+<p>
+<br>El capitalismo promueve un sistema de pago eficiente que impulse la economía. Además, para las instituciones bancarias resulta costoso el mantenimiento y seguridad de cajeros y el traslado de efectivo. Por lo que, para quienes promueven este estilo de vida, los instrumentos digitales (tarjetas, internet y aplicaciones) simplificarían los pagos y también permitiría luchar contra los fraudes y el crimen organizado. </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img2.png" title="Img 2">
+        		<!--texto para la imagen-->
+        		<p>Dinero en efectivo y dinero digital</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>EL LADO NEGATIVO</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <h2>¿Y la otra cara de la moneda?</h2> 
+		        <p>
+<br>Ahora vamos a salir de esa burbuja y voltear a ver la otra cara de la moneda de una sociedad Zero Cash.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <ul>
+		        <li><b>Exclusión financiera.</b> Aquellos que no cuentan con los medios para tener un smarthphone y hacer transacciones, o aunque lo tengan no están familiarizados con el uso de aplicaciones y del internet (la famosa brecha digital). Por lo tanto bajar aplicaciones, crear una cuenta y solicitar una tarjeta de crédito o débito es casi #MisiónImposible. Esto afectaría principalmente a las zonas rurales o áreas remotas sin conectividad, personas de la tercera edad, mendigos, indocumentados o inmigrantes.</li>
+<li><b>Bye bye privacidad.</b> En digital TOOODAS los movimientos quedan registrados. Se sabe cuánto, cuándo, dónde y a quién va el dinero. Esos datos pueden convertirse en una forma de rastreo para los usuarios.</li> 
+<li><b>Ciberdelincuencia.</b> El robo de dato y de dinero no están excentos en el mundo digital; en esta era los hackeos y ataques cibernéticos son la nueva forma de asalto. Y proteger la privacidad en internet y el dinero tiene un costo para el banco.</li> 
+<li><b>Fallos técnicos.</b> Falta de electricidad, mantenimiento del servidor, desastres naturales, entre otros, pueden dificultar las transacciones, el acceso a las cuentas y el intercambio comercial. Esto generaría más problemas a nivel social y económico.</li> 
+<li><b>Más gasto, menos ahorro.</b> Las personas que no están habituadas pueden perder el control de los gastos, pasar la tarjeta aquí y allá, comprar cosas online y no saber cuánto les queda en la cuenta y, por supuesto, dejar de lado el ahorro mínimo para el fondo de emergencias.</li> 
+</ul>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img3.png" title="Img 3">
+        		<!--texto para la imagen-->
+        		<p>La cara oculta del dinero digital</p>
+        	<!--YO AGREGUÉ ESTO-->
+        		<div class="texto-secc"> 		
+<p>
+</div>
+<br>
+_ </p>
+    	</div>
+	<!--AQUÍ HACIA ARRIBA-->
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>EL FUTURO</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		     <p>La decadencia del efectivo no puede detenerse ni revertirse, vivimos en un mundo cada vez más digitalizado. </p>
+		        <h2>¿Las criptomonedas?</h2>
+		        <p> 
+<br>Su principal función es mostrar que la infraestructura financiera puede construirse basada en la tecnología, pero en general no se trata de monedas, sino activos e inversiones de alto riesgo dada su volatilidad. 
+</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <h2>¿Qué va a pasar?</h2>  
+		      <p>
+<br>Con el auge de la economía digital y las criptomonedas los bancos centrales han comenzado a explorar la implementación de una Moneda Digital (MDBC o CBDC) o efectivo digital. Más 100 países se encuentran en la etapa de exploración, entre ellos México. Brasil, China, la Unión Europea, India y el Reino Unido están a la vanguardia. Mientras países como Las Bahamas, Jamaica y Nigeria ya han introducido una CBDC. 
+</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Según el FMI, con las CBDC no necesariamente se requeriría una cuenta bancaria para hacer transacciones digitales, sino que sería a través de billeteras digitales proporcionadas directamente por el banco central o a través de proveedores de servicios como telecomunicaciones, redes sociales o correo electrónico. </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img4.png" title="Img 4">
+        		<!--texto para la imagen-->
+        		<p>La nueva era</p>
+    		</div>
+
+    	</div>
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">Copyright 2024. Claudia ALVAREZ. 
+	      	<br>Todos los derechos a sus respectivos autores</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>
